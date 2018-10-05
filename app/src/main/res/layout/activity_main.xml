@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/rice"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Rice(35)"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Chocolate(30)" />
+
+    <CheckBox
+        android:id="@+id/vicks"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="Vicks(5)" />
+
+    <CheckBox
+        android:id="@+id/clothes"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Clothes(250)" />
+
+    <CheckBox
+        android:id="@+id/toys"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Toys(100)" />
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment" />
+
+    <TextView
+        android:id="@+id/tx"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="TextView" />
+</LinearLayout>
